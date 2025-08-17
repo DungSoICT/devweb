@@ -9,12 +9,50 @@
     <h1>Welcome to the Development Web Page</h1>
     <p>This is a simple HTML document to demonstrate a basic structure.</p>
     <p>Feel free to modify and expand this template as needed.</p>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This is the first section of the document.</p>
+    </section>
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is the second section of the document.</p>
+    </section>
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>This is the third section of the document.</p>
+    </section>
+    <aside>
+        <h3>Note</h3>
+        <p>This is an aside section for additional information.</p>
+    </aside>
+    <div>
+        <h3>Additional Content</h3>
+        <p>You can add more content here as needed.</p>
+    </div>
+    <hr>
+    <h2>Footer Section</h2>
+    <p>This is the footer section of the document.</p>
+    <p>Feel free to add links, contact information, or any other relevant details.</p>
+    <hr>
     <footer>
         <p>&copy; 2023 Your Name</p>
     </footer>
     <script>
         console.log("Development web page loaded successfully.");
         // You can add more JavaScript functionality here
+        function greet() {
+            alert("Hello, welcome to the development page!");
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            greet();
+        });
     </script>
 </body>
 </html>
